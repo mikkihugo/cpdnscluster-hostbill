@@ -1,4 +1,4 @@
-# Hostbill cPanel DNS Cluster Plugin
+# Hostbill cPanel DNS Cluster Plugin ---- NOT WORKING
 
 ## Overview
 This plugin integrates Hostbill as a DNS Cluster backend for cPanel, allowing cPanel servers to manage DNS records through Hostbill's API. It provides a seamless way to synchronize DNS zones, add/remove records, and handle DNS management across multiple servers.
