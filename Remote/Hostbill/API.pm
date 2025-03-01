@@ -32,8 +32,8 @@ sub add_zone {
         "$self->{api_url}",
         {
             call    => 'addDNSZone',
-            api_id  => $self->{api_id'},
-            api_key => $self->{api_key'},
+            api_id  => $self->{'api_id'},
+            api_key => $self->{'api_key'},
             name    => $domain,
             ns_records => $ns_records
         }
